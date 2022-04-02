@@ -1,0 +1,24 @@
+.list-item{
+    text-align: left;
+    list-style-type: none;
+    margin-right:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.container{
+    /* background: rgba(255, 255, 255, 0.3); */
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+}
