@@ -7,7 +7,7 @@ const List = ( {museums} ) => {
     <div className="container">
         <ul>
             {museums.map(museum => (
-                <li key={museum} className="list-item"><input type="checkbox"></input>{museum}<Edit /><Delete /> </li>
+                <li key={museum.index} className="list-item"><input type="checkbox"></input>{museum.name}<Edit /><Delete /> </li>
             ))}
         </ul>
     </div>

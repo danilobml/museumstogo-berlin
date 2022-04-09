@@ -17,6 +17,12 @@
     margin-top: 30px;
 }
 
+label{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(39, 108, 235);
+}
+
 .icon {
     width: 15px;
     height: 15px;
