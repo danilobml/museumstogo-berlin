@@ -1,12 +1,16 @@
 import './App.css';
+import { useState } from 'react';
 import List from './Components/List/List'
 import InputForm from './Components/InputForm/InputForm'
 
-const museums = ["Chicken Museum", "Stasi Museum", "Neue Nationalgalerie", "The Museum of eternal longing for an existence unobtainable in one lifetime"]
+
 
 // function based component
 
 function App() {
+  const [museums, setMuseums] = useState ([
+    {name: "Chicken Museum", completed: false},{name: "Stasi Museum", completed: false}]);  
+  const [userInput, setUserInput] = useState({});
   return (
     <div className="App">
       <div className="list-container">
@@ -21,8 +25,8 @@ function App() {
 
 export default App;
 
-
-const museumList = ['Abguss-Sammlung Antiker Plastik',
+const museumList = [
+    'Abguss-Sammlung Antiker Plastik',
     'Academy of Arts Berlin',
     'AdK on Hanseatenweg',
     'AG Märkische Kleinbahn',
