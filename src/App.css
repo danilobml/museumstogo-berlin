@@ -1,14 +1,40 @@
 body{
     background-image: url(./images/neuenationalgalerie.jpg);
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
 }
 
-h1{
+h1, h3, h4, h5{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(39, 108, 235);
 }
 
+
+h2 {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
 .input-form {
   text-align: center;
+}
+
+.clear {
+  background-color: rgb(227, 95, 78);
+  margin-left: 0.5rem;
+  font-size: 0.7rem;
+  border:1px solid  rgb(175, 70, 57);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.clear-div {
+  display: flex;
+  justify-content: center;
 }
