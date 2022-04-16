@@ -9,18 +9,22 @@
     border-radius: 3px;
 }
 
-.container{
-    /* background: rgba(255, 255, 255, 0.3); */
+.container {
+    background:rgba(189, 218, 238, 0.6);
     width: fit-content;
     margin: 0 auto;
     text-align: left;
     margin-top: 30px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px;
+    border-radius: 3px;
 }
 
 label{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(39, 108, 235);
+    color: black;
 }
 
 .icon {
@@ -28,6 +32,7 @@ label{
     height: 15px;
     margin-left: 8px;
     cursor: pointer;
+
 }
 
 .submitEdit {
@@ -39,7 +44,7 @@ label{
 }
 
 .inputEdit {
-    width: 250px;
+    width: 80%;
     justify-self: center;
 }
 
@@ -47,4 +52,13 @@ label{
     border: none;
     background: rgba(255, 255, 255, 0);
     text-decoration: underline;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(24, 78, 179);
+    padding-top: 8px;
+    padding-bottom: 5px;
+    font-weight: bold;
 }

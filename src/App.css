@@ -6,9 +6,10 @@ body{
     display: flex;
     justify-content: center;
     background-size: cover;
+    
 }
 
-h1, h3, h4, h5{
+h1, h3, h4{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(42, 102, 213);
@@ -46,8 +47,8 @@ h1 {
   background-color: aliceblue;
   padding: 1rem;
   border-radius: 1rem;
-  color: rgb(42, 102, 213);
-  border: 2px solid black;
+  color: black;
+  border: 1px solid gray;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -55,11 +56,18 @@ h1 {
   z-index: 1000;
 }
 
+.info-container h1{
+  color: rgb(42, 102, 213);
+}
+
 .info-pic {
   width: 300px;
   height: auto;
+  max-height: 300px;
   margin-left: 2rem;
   text-align: center;
+  display:block;
+  margin: 0 auto;
 }
 
 .info-close {
@@ -79,6 +87,6 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  background:  rgba(255, 255, 255, 0.7);
+  background:  rgba(189, 218, 238, 0.7);
   z-index: 1000;
 }
