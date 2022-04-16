@@ -1,14 +1,17 @@
 body{
     background-image: url(./images/neuenationalgalerie.jpg);
     background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
+    background-size: cover;
 }
 
 h1, h3, h4, h5{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(39, 108, 235);
+    color: rgb(42, 102, 213);
 }
 
 
@@ -37,4 +40,45 @@ h1 {
 .clear-div {
   display: flex;
   justify-content: center;
+}
+
+.info-container {
+  background-color: aliceblue;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: rgb(42, 102, 213);
+  border: 2px solid black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.info-pic {
+  width: 300px;
+  height: auto;
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.info-close {
+  background-color: rgb(227, 95, 78);
+  font-size: 0.9rem;
+  border:1px solid  rgb(175, 70, 57);
+  font-weight: bold;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  float: right;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:  rgba(255, 255, 255, 0.7);
+  z-index: 1000;
 }
