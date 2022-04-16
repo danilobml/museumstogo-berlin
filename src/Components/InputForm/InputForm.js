@@ -9,11 +9,13 @@ const InputForm = ({ onInput, onAddNew, berlinList, handleRecommend }) => {
         <br />
         <input list="berlin-museums" name="berlin-list" id="berlin-list" onInput={onInput}></input>
         <datalist id="berlin-museums" name="berlin">
-          {berlinList.map((museum, index) => (
-            <option key={index} value={museum}>
-              {museum}
-            </option>
-          ))}
+          {berlinList.map((museum, index) => {
+            return (
+              <option key={index} value={museum.name}>
+                {museum.name}
+              </option>
+            );
+          })}
         </datalist>
         <input type="submit" className="addbutton" value="Add"></input>
         <br />

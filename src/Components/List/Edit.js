@@ -1,7 +1,13 @@
-import editIcon from "./edit.svg"
+//IMPORTED IN LIST.JS => App.js
 
-const Edit = () => {
-    return <span><img src={editIcon} className="icon" alt="delete icon"/></span>
-}
+import editIcon from "./edit.svg";
 
-export default Edit
+const Edit = ({ editMuseum, name }) => {
+  return (
+    <span>
+      <img src={editIcon} className="icon" alt="delete icon" onClick={() => editMuseum(name)} />
+    </span>
+  );
+};
+
+export default Edit;

@@ -9,6 +9,7 @@ const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <App />
+    <div id="portal"></div>
   </React.StrictMode>
 );
 
