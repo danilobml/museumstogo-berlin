@@ -93,7 +93,7 @@ function App() {
   // RECOMMEND MUSEUM FUNCTION
   const handleRecommend = () => {
     const random = berlinList[Math.floor(Math.random() * berlinList.length)];
-    const currentMuseum = museums.find((m) => m.name === random);
+    const currentMuseum = museums.find((m) => m.name === random.name);
     if (!currentMuseum) {
       const newMuseum = {
         name: random.name,

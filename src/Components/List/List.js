@@ -6,7 +6,7 @@ import Info from "./Info";
 const List = ({ handleComplete, museums, deleteMuseum, editMuseum, submitEdit, editing, onEditText, editText, clickInfo }) => {
   return (
     //Conditional rendering, only brings header if there are uncompleted museums, otherwise empty string
-    <div className="container">
+    <div className="container-list">
       {museums.find((m) => m.completed === false) ? <h5>Museums to Go:</h5> : ""}
 
       <ul>

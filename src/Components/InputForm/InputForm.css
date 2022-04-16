@@ -1,17 +1,29 @@
 .addbutton, .recommend {
     margin-top: 0.5rem;
-    background-color: rgb(142, 204, 142);
+    background-color: rgb(51, 65, 190);
     border-radius: 0.3rem;
     font-weight: bold;
-    border:1.5px solid  rgb(114, 152, 114);
+    color: white;
+    /* border:1.5px solid  rgb(114, 152, 114); */
+    margin-left: 7px;
+    border:none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 button.recommend{
-    background-color: rgb(227, 95, 78);
-    margin-left: 0.5rem;
-    border:none;
-    font-size: 0.8rem;
-    border:1px solid  rgb(175, 70, 57);
+    background-color: rgb(51, 65, 190);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 13px;
+    border: none;
+    font-size: 0.9rem;
+    color: white;
+    /* border:1px solid  rgb(175, 70, 57); */
 }
 
 #berlin-list {

@@ -19,7 +19,7 @@ const InputForm = ({ onInput, onAddNew, berlinList, handleRecommend }) => {
         </datalist>
         <input type="submit" className="addbutton" value="Add"></input>
         <br />
-        <label>Or let us suggest one for you:</label>
+        <label>Or let us suggest a museum for you:</label>
         <Recommend handleRecommend={handleRecommend} />
       </form>
     </>
