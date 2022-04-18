@@ -5,7 +5,6 @@ import Info from "./Info";
 
 const List = ({ handleComplete, museums, deleteMuseum, editMuseum, submitEdit, editing, onEditText, editText, clickInfo }) => {
   return (
-    //Conditional rendering, only brings header if there are uncompleted museums, otherwise empty string
     <div className="container-list">
       {museums.find((m) => m.completed === false) ? <h5>Museums to Go:</h5> : ""}
 
@@ -14,7 +13,6 @@ const List = ({ handleComplete, museums, deleteMuseum, editMuseum, submitEdit, e
           museum.name !== editing ? (
             !museum.completed ? (
               <li key={index} className="list-item">
-                {/* call handleComplete with parameters when checkbox changes */}
                 <input type="checkbox" onChange={() => handleComplete(museum.name)} checked={museum.completed}></input>
                 {museum.name}
                 <Info clickInfo={clickInfo} name={museum.name} />

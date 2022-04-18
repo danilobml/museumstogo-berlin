@@ -1,4 +1,4 @@
-const InfoModal = ({ setShowInfo, info, closeInfo }) => {
+const InfoModal = ({ info, closeInfo }) => {
   return (
     <>
       <div className="overlay"></div>
