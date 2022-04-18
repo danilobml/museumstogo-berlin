@@ -1,4 +1,4 @@
-.addbutton, .recommend {
+.addbutton, .suggest {
     margin-top: 0.5rem;
     background-color: rgb(51, 65, 190);
     border-radius: 0.3rem;
@@ -13,7 +13,7 @@
     padding-right: 6px;
 }
 
-button.recommend{
+button.suggest{
     background-color: rgb(51, 65, 190);
     padding-top: 6px;
     padding-bottom: 6px;

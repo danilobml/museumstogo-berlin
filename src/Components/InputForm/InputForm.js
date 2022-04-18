@@ -1,7 +1,7 @@
 import "./InputForm.css";
-import Recommend from "./Recommend";
+import Suggest from "./Suggest";
 
-const InputForm = ({ onInput, onAddNew, berlinList, handleRecommend }) => {
+const InputForm = ({ onInput, onAddNew, berlinList, handleSuggest }) => {
   return (
     <>
       <form className="input-form" onSubmit={onAddNew}>
@@ -20,7 +20,7 @@ const InputForm = ({ onInput, onAddNew, berlinList, handleRecommend }) => {
         <input type="submit" className="addbutton" value="Add"></input>
         <br />
         <label>Or let us suggest a museum for you:</label>
-        <Recommend handleRecommend={handleRecommend} />
+        <Suggest handleSuggest={handleSuggest} />
       </form>
     </>
   );
