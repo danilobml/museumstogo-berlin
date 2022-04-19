@@ -1,3 +1,9 @@
+A simple app made with React, with functionalities to help choosing museums to go in Berlin.
+
+Made in collaboration with https://github.com/tognut86.
+
+Live Site: https://danilobml.github.io/museumstogo-berlin/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
