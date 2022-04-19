@@ -108,3 +108,9 @@ h1 {
   background:  rgba(189, 218, 238, 0.7);
   z-index: 1000;
 }
+
+@media screen and (min-width: 750px) {
+  :root{ 
+    font-size: 18px;
+  } 
+}
