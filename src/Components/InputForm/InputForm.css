@@ -19,11 +19,10 @@ button.suggest{
     padding-bottom: 6px;
     padding-left: 8px;
     padding-right: 8px;
-    margin-left: 13px;
+    margin-left: 8px;
     border: none;
     font-size: 0.9rem;
     color: white;
-    /* border:1px solid  rgb(175, 70, 57); */
 }
 
 #berlin-list {
