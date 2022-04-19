@@ -106,7 +106,6 @@ function App() {
 
   const handleSubmitEdit = (event) => {
     event.preventDefault();
-
     const modMuseums = [...museums].map((museum) => {
       if (museum.name === editing) {
         museum.name = editText;
@@ -137,6 +136,36 @@ function App() {
     setShowSuggest(false);
   };
 
+  const suggest = (newArray) => {
+    const museumRegister = museums.map((museum) => museum.name);
+    let newMuseum = {};
+    if (newArray.length > 0) {
+      const random = newArray[Math.floor(Math.random() * newArray.length)];
+      const currentMuseum = museums.find((m) => m.name === random.name);
+      if (!currentMuseum) {
+        newMuseum = {
+          name: random.name,
+          completed: false,
+        };
+      } else {
+        newMuseum = {
+          name: "",
+          completed: "",
+        };
+      }
+      if (newMuseum.name) {
+        setMuseums([...museums, newMuseum]);
+      } else if (!newArray.every((museum) => museumRegister.includes(museum.name))) {
+        suggest(newArray);
+      } else {
+        alert("You've already got all museums that fit your preferences on your list!");
+        return;
+      }
+    } else {
+      alert("There's no museum of that type at that location.");
+    }
+  };
+
   const handleGetSuggestion = (event) => {
     event.preventDefault();
     let newArray = [];
@@ -151,22 +180,8 @@ function App() {
     } else {
       newArray = berlinList;
     }
-    if (newArray.length > 0) {
-      const random = newArray[Math.floor(Math.random() * newArray.length)];
-      const currentMuseum = museums.find((m) => m.name === random.name);
-      if (!currentMuseum) {
-        const newMuseum = {
-          name: random.name,
-          completed: false,
-        };
-        setMuseums([...museums, newMuseum]);
-      } else {
-        alert("Oops, we suggested a musum that you've already chosen or visited. Try again.");
-      }
-      setShowSuggest(false);
-    } else {
-      alert("There's no museum of that type at that location.");
-    }
+    const newMuseum = suggest(newArray);
+    setShowSuggest(false);
     setSuggestType("");
     setSuggestLocation("");
     event.target.reset();
