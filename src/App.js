@@ -12,10 +12,6 @@ import SuggestModal from "./Components/Suggest/SuggestModal";
 import FilterModal from "./Components/InputForm/Filter/FilterModal";
 
 function App() {
-  const [museums, setMuseums] = useState(() => {
-    const stored = localStorage.getItem("MUSEUMSTOGO_WBS");
-    return stored ? JSON.parse(stored) : [];
-  });
   const [userInput, setUserInput] = useState({});
   const [editing, setEditing] = useState(null);
   const [editText, setEditText] = useState("");
@@ -30,6 +26,11 @@ function App() {
   const [showFilterList, setShowFilterList] = useState(false);
   const [filteredMuseum, setFilteredMuseum] = useState("");
   const [newArray, setNewArray] = useState([]);
+
+  const [museums, setMuseums] = useState(() => {
+    const stored = localStorage.getItem("MUSEUMSTOGO_WBS");
+    return stored ? JSON.parse(stored) : [];
+  });
 
   useEffect(() => {
     const toStorage = JSON.stringify(museums);

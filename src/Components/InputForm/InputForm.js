@@ -3,6 +3,7 @@ import Suggest from "../Suggest/Suggest";
 import Filter from "./Filter/Filter";
 
 const InputForm = ({ onInput, onAddNew, berlinList, handleSuggest, handleFilter }) => {
+  const berlinListNames = berlinList.map((museum) => museum.name).sort();
   return (
     <>
       <form className="input-form" onSubmit={onAddNew}>
@@ -10,10 +11,10 @@ const InputForm = ({ onInput, onAddNew, berlinList, handleSuggest, handleFilter 
         <br />
         <input list="berlin-museums" name="berlin-list" id="berlin-list" onInput={onInput}></input>
         <datalist id="berlin-museums" name="berlin">
-          {berlinList.map((museum, index) => {
+          {berlinListNames.map((museum, index) => {
             return (
-              <option key={index} value={museum.name}>
-                {museum.name}
+              <option key={index} value={museum}>
+                {museum}
               </option>
             );
           })}

@@ -23,7 +23,7 @@ const InfoModal = ({ info, closeInfo }) => {
           <div>
             <p>
               <b>Picture:</b>
-              <img className="info-pic" src={info.image} alt={info.name}></img>
+              <img className="info-pic" src={info.image} alt={`Image not available: ${info.name}`}></img>
             </p>
           </div>
         </div>

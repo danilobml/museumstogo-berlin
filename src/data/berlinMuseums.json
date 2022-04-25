@@ -1,5 +1,6 @@
 [{
     "name": "Abguss-Sammlung Antiker Plastik",
+    "image": "http://abguss-sammlung-berlin.de/wp-content/uploads/2020/10/aussenansicht.jpg",
     "neighborhood": "Charlottenburg",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Art",
@@ -27,7 +28,7 @@
     "neighborhood": "Oberschöneweide",
     "borough": "Treptow-Köpenick",
     "type": "Children's",
-    "summary": "Website, located in the FEZ Berlin"
+    "summary": "Located in the FEZ Berlin"
 },
 {
     "name": "Allied Museum",
@@ -67,7 +68,7 @@
     "neighborhood": "Adlershof",
     "borough": "Treptow-Köpenick",
     "type": "Biographical",
-    "summary": "Website, rooms where author Anna Seghers lived, operated by the Academy of Arts, Berlin Archive"
+    "summary": "Rooms where author Anna Seghers lived, operated by the Academy of Arts, Berlin Archive"
 },
 {
     "name": "Anne Frank Zentrum",
@@ -83,7 +84,7 @@
     "neighborhood": "Wedding",
     "borough": "Mitte",
     "type": "History",
-    "summary": "Website, facts on the topics of war and peace, and features an original air raid shelter from World War II, weapons, war toys, peace movement"
+    "summary": "Facts on the topics of war and peace, and features an original air raid shelter from World War II, weapons, war toys, peace movement"
 },
 {
     "name": "Archenhold Observatory",
@@ -115,7 +116,7 @@
     "neighborhood": "Steglitz",
     "borough": "Steglitz-Zehlendorf",
     "type": "Technology",
-    "summary": "Website, development of energy generation and supply systems, located in a former power plant"
+    "summary": "Development of energy generation and supply systems, located in a former power plant"
 },
 {
     "name": "Berlin Museum of Medical History at the Charité ",
@@ -123,7 +124,7 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Medical",
-    "summary": "Website, developments in medicine including the view of and into the body, patients, today’s medicine, pathological-anatomical specimens, microscopes, medical instruments; formerly the Pathology Museum of Rudolf Virchow"
+    "summary": "Developments in medicine including the view of and into the body, patients, today’s medicine, pathological-anatomical specimens, microscopes, medical instruments; formerly the Pathology Museum of Rudolf Virchow"
 },
 {
     "name": "Berlin Musical Instrument Museum",
@@ -139,14 +140,15 @@
     "neighborhood": "Reinickendorf",
     "borough": "Reinickendorf",
     "type": "Numismatic",
-    "summary": "Website"
+    "summary": "European coin mint located in the city of Berlin and its History"
 },
 {
     "name": "Berlin Story Museum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Berlin_-_Anhalter_Hochbunker_Berlin_Story_Bunker.jpg/1200px-Berlin_-_Anhalter_Hochbunker_Berlin_Story_Bunker.jpg",
     "neighborhood": "Kreuzberg",
     "borough": "Friedrichshain-Kreuzberg",
     "type": "History",
-    "summary": "Website, photos and artifacts about the city's history"
+    "summary": "Photos and artifacts about the city's history"
 },
 {
     "name": "Berlin Underworlds Museum ",
@@ -154,7 +156,7 @@
     "neighborhood": "Gesundbrunnen",
     "borough": "Mitte",
     "type": "History",
-    "summary": "Website, history and tours of the city's underground systems including the bunker systems in Berlin’s subway system, recovered bombs and ammunition stores, Berlin’s pneumatic post system, breweries and blind tunnels"
+    "summary": "History and tours of the city's underground systems including the bunker systems in Berlin’s subway system, recovered bombs and ammunition stores, Berlin’s pneumatic post system, breweries and blind tunnels"
 },
 {
     "name": "Berlin U-Bahn Museum ",
@@ -162,7 +164,7 @@
     "neighborhood": "Westend",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Transportation",
-    "summary": "Website, history of the city's subway system, located in the historical signal tower at the Berlin Olympiastadion station"
+    "summary": "History of the city's subway system, located in the historical signal tower at the Berlin Olympiastadion station"
 },
 {
     "name": "Berlin Wall Memorial and Documentation Centre",
@@ -194,7 +196,7 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Transportation",
-    "summary": "Website, over 140 motorcycles, scooters and mopeds from East German manufacturers"
+    "summary": "Over 140 motorcycles, scooters and mopeds from East German manufacturers"
 },
 {
     "name": "Berlinische Galerie",
@@ -210,7 +212,7 @@
     "neighborhood": "Marzahn",
     "borough": "Marzahn-Hellersdorf",
     "type": "Mill",
-    "summary": "Website, reconstructed 19th-century windmill"
+    "summary": "Reconstructed 19th-century windmill"
 },
 {
     "name": "Bezirksmuseum Marzahn-Hellersdorf",
@@ -218,28 +220,31 @@
     "neighborhood": "Marzahn",
     "borough": "Marzahn-Hellersdorf",
     "type": "Local",
-    "summary": "Website, local and cultural history of the district"
+    "summary": "Local and cultural history of the district"
 },
 {
     "name": "BlackBox Cold War",
+    "image": "https://www.visitberlin.de/system/files/styles/visitberlin_bleed_header_visitberlin_mobile_1x/private/image/Berliner_Forum_Geschichte_Gegenwart_BB0909_c_bfgg_DL_PPT_2.jpg?h=d1f6bb1a&itok=w3BDhj4Z",
     "neighborhood": "Kreuzberg",
     "borough": "Friedrichshain-Kreuzberg",
     "type": "History",
-    "summary": "Website, exhibition pavilion about the history of Checkpoint Charlie"
+    "summary": "Exhibition pavilion about the history of Checkpoint Charlie"
 },
 {
     "name": "Braun-Sammlung Ettel, Museum für Design",
+    "image": "https://www.tip-berlin.de/wp-content/uploads/2020/09/braun_sammlung_1.jpg",
     "neighborhood": "Moabit",
     "borough": "Mitte",
     "type": "Design",
-    "summary": "Website"
+    "summary": "Design, especially of the Braun brand"
 },
 {
     "name": "Brecht Weigel Museum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Brecht-Weigel-Haus_Buckow_01.jpg/1200px-Brecht-Weigel-Haus_Buckow_01.jpg",
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Historic house",
-    "summary": "Website, last place Bertolt Brecht and Helene Weigel lived and worked, operated by the Academy of Arts, Berlin[1]"
+    "summary": "Last place Bertolt Brecht and Helene Weigel lived and worked, operated by the Academy of Arts, Berlin[1]"
 },
 {
     "name": "Britz Windmill ",
@@ -247,7 +252,7 @@
     "neighborhood": "Marzahn",
     "borough": "Marzahn-Hellersdorf",
     "type": "Mill",
-    "summary": "Website, restored 19th-century windmill"
+    "summary": "Restored 19th-century windmill"
 },
 {
     "name": "Bode Museum",
@@ -287,7 +292,7 @@
     "neighborhood": "Charlottenburg",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Photography",
-    "summary": "Website"
+    "summary": "No info available"
 },
 {
     "name": "Charlottenburg Palace",
@@ -319,7 +324,7 @@
     "neighborhood": "Tiergarten",
     "borough": "Mitte",
     "type": "Art",
-    "summary": "Website, contemporary art, located at Haus Huth at Potsdamer Platz"
+    "summary": "Contemporary art, located at Haus Huth at Potsdamer Platz"
 },
 {
     "name": "DDR Museum",
@@ -343,7 +348,7 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Art",
-    "summary": "Website, operated by Deutsche Bank, international contemporary art"
+    "summary": "Operated by Deutsche Bank, international contemporary art"
 },
 {
     "name": "Deutsches Historisches Museum",
@@ -359,7 +364,7 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "History",
-    "summary": "Website, Berlin Wall cityscape in a rotunda and accompanying photography exhibition into the period"
+    "summary": "Berlin Wall cityscape in a rotunda and accompanying photography exhibition into the period"
 },
 {
     "name": "Domäne Dahlem",
@@ -367,7 +372,7 @@
     "neighborhood": "Dahlem",
     "borough": "Steglitz-Zehlendorf",
     "type": "Agriculture",
-    "summary": "Website, historic manor house featuring exhibits on agriculture and nutrition, a 1920s merchant shop, butcher shop, food laboratory of the Imperial Health Office, exhibits about bees, working farm"
+    "summary": "Historic manor house featuring exhibits on agriculture and nutrition, a 1920s merchant shop, butcher shop, food laboratory of the Imperial Health Office, exhibits about bees, working farm"
 },
 {
     "name": "East Side Gallery",
@@ -383,7 +388,7 @@
     "neighborhood": "Nikolaiviertel",
     "borough": "Mitte",
     "type": "Multiple",
-    "summary": "Website, exhibitions of art, history and culture of Berlin"
+    "summary": "Exhibitions of art, history and culture of Berlin"
 },
 {
     "name": "Ethnological Museum of Berlin",
@@ -395,10 +400,11 @@
 },
 {
     "name": "The Feuerle Collection",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/BASA-Bunker_%28Umbau_Eingang_I%29_2016.jpg/1280px-BASA-Bunker_%28Umbau_Eingang_I%29_2016.jpg",
     "neighborhood": "Kreuzberg",
     "borough": "Kreuzberg",
     "type": "Art",
-    "summary": "Website, art museum juxtaposes international contemporary artists with Imperial Chinese furniture and Southeast Asian sculptures."
+    "summary": "Art museum juxtaposes international contemporary artists with Imperial Chinese furniture and Southeast Asian sculptures."
 },
 {
     "name": "FHXB Friedrichshain-Kreuzberg Museum",
@@ -406,7 +412,7 @@
     "neighborhood": "Kreuzberg",
     "borough": "Friedrichshain-Kreuzberg",
     "type": "Local",
-    "summary": "Website, local history and culture, regional history on current issues"
+    "summary": "Local history and culture, regional history on current issues"
 },
 {
     "name": "Fire Brigade Museum Berlin",
@@ -414,21 +420,23 @@
     "neighborhood": "Tegel",
     "borough": "Reinickendorf",
     "type": "Firefighting",
-    "summary": "Website"
+    "summary": "Vehicles and activities of the firefighters of Berlin"
 },
 {
     "name": "Grunewald Forest Museum",
+    "image":"http://www.museumsportal-berlin.de/media/CACHE/images/135c1d883778d182f980878ad3ab7143.jpg",
     "neighborhood": "Grunewald",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Natural history",
-    "summary": "Website, animals and plants of the Grunewald (forest)"
+    "summary": "Animals and plants of the Grunewald (forest)"
 },
 {
     "name": "Forum Willy Brandt Exhibition",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Willy-Brandt-Forum.jpg/800px-Willy-Brandt-Forum.jpg",
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Biographical",
-    "summary": "Website, life of Willy Brandt"
+    "summary": "Life of the chancellor Willy Brandt"
 },
 {
     "name": "Friedrichsfelde Palace",
@@ -436,7 +444,7 @@
     "neighborhood": "Friedrichsfelde",
     "borough": "Lichtenberg",
     "type": "Historic house",
-    "summary": "Website, located in Tierpark Berlin, restored 1800-period castle, exhibits about the castle and zoo history"
+    "summary": "Located in Tierpark Berlin, restored 1800-period castle, exhibits about the castle and zoo history"
 },
 {
     "name": "Friedrichswerder Church",
@@ -472,6 +480,7 @@
 },
 {
     "name": "Georg-Kolbe-Museum",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/d/d8/Hausansicht_GKM_2016_Bildarchiv_GKM_E_Duch_Web.jpg",
     "neighborhood": "Westend",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Art",
@@ -479,10 +488,11 @@
 },
 {
     "name": "German Museum for the Blind",
+    "image": "http://www.museumsportal-berlin.de/media/CACHE/images/a78dc3affcefb3b2e115f371cb284b8f.jpg",
     "neighborhood": "Dahlem",
     "borough": "Steglitz-Zehlendorf",
     "type": "History",
-    "summary": "Website, history of the blind and visually impaired in Germany, Louis Braille and the development of Braille"
+    "summary": "History of the blind and visually impaired in Germany, Louis Braille and the development of Braille"
 },
 {
     "name": "German Museum of Technology",
@@ -514,7 +524,7 @@
     "neighborhood": "Charlottenburg",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Art",
-    "summary": "Website, part of the Berlin State Museums, features replicas of works from the collections of the SMB and from other European museums"
+    "summary": "Part of the Berlin State Museums, features replicas of works from the collections of the SMB and from other European museums"
 },
 {
     "name": "Gothic House",
@@ -522,7 +532,7 @@
     "neighborhood": "Spandau",
     "borough": "Spandau",
     "type": "Historic house",
-    "summary": "Website, a secular medieval monument, the upper floor houses a branch of the City Historical Museum Spandau"
+    "summary": "A secular medieval monument, the upper floor houses a branch of the City Historical Museum Spandau"
 },
 {
     "name": "Grünau Water Sports Museum ",
@@ -530,7 +540,7 @@
     "neighborhood": "Grünau",
     "borough": "Treptow-Köpenick",
     "type": "Maritime",
-    "summary": "Website, history of water sports like rowing and sailing, includes rowboats, canoes, dragon boats, polo canoes, boat club artifacts, photographs"
+    "summary": "History of water sports like rowing and sailing, includes rowboats, canoes, dragon boats, polo canoes, boat club artifacts, photographs"
 },
 {
     "name": "Gründerzeitmuseum at Gutshaus Mahlsdorf ",
@@ -538,7 +548,7 @@
     "neighborhood": "Mahlsdorf",
     "borough": "Marzahn-Hellersdorf",
     "type": "Historic house",
-    "summary": "Website, features eleven fully furnished rooms dating from 1870 to 1900, the Gründerzeit"
+    "summary": "Features eleven fully furnished rooms dating from 1870 to 1900, the Gründerzeit"
 },
 {
     "name": "Günter Litfin Memorial",
@@ -546,7 +556,7 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "History",
-    "summary": "Website, part of the Berlin Wall Foundation"
+    "summary": "Part of the Berlin Wall Foundation, homage to victims of the wall"
 },
 {
     "name": "Hamburger Bahnhof: Museum of the Present",
@@ -562,7 +572,7 @@
     "neighborhood": "Nikolaiviertel",
     "borough": "Mitte",
     "type": "Agriculture",
-    "summary": "Website, focus is cannabis, including its effects, cultivation, processing, and possibilities of use"
+    "summary": "Focus is cannabis, including its effects, cultivation, processing, and possibilities of use"
 },
 {
     "name": "Haus am Lützowplatz ",
@@ -570,7 +580,7 @@
     "neighborhood": "Tiergarten",
     "borough": "Mitte",
     "type": "Art",
-    "summary": "Website, hosts six to eight exhibitions of national and international contemporary artists in all media"
+    "summary": "Hosts six to eight exhibitions of national and international contemporary artists in all media"
 },
 {
     "name": "Haus am Waldsee ",
@@ -578,7 +588,7 @@
     "neighborhood": "Zehlendorf",
     "borough": "Steglitz-Zehlendorf",
     "type": "Art",
-    "summary": "Website, platform for contemporary artists who live and work in Berlin and have already achieved significant international standing"
+    "summary": "Platform for contemporary artists who live and work in Berlin and have already achieved significant international standing"
 },
 {
     "name": "Haus der Kulturen der Welt",
@@ -590,10 +600,11 @@
 },
 {
     "name": "Herzberge Boiler House Museum",
+    "image":"https://www.berlin.de/binaries/asset/image_assets/3221810/ratio_4_3/1427276920/800x600/",
     "neighborhood": "Lichtenberg",
     "borough": "Lichtenberg",
     "type": "Technology",
-    "summary": "Website, restored boiler house that provided heat, warm water and electricity for a hospital complex, includes exhibits about the history of the Herzberge medical complex of the Königin Elisabeth Hospital"
+    "summary": "Restored boiler house that provided heat, warm water and electricity for a hospital complex, includes exhibits about the history of the Herzberge medical complex of the Königin Elisabeth Hospital"
 },
 {
     "name": "Hohenschönhausen Castle",
@@ -605,10 +616,11 @@
 },
 {
     "name": "Hošek Contemporary",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/MS_Heimatland%2C_seat_of_Hosek_Contemporary_in_July_2019.jpg/640px-MS_Heimatland%2C_seat_of_Hosek_Contemporary_in_July_2019.jpg",
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Art",
-    "summary": "Website, located on a boat MS Heimatland near Fischerinsel, exhibitions of international contemporary art, with a special focus on performances and sound installations"
+    "summary": "Located on a boat MS Heimatland near Fischerinsel, exhibitions of international contemporary art, with a special focus on performances and sound installations"
 },
 {
     "name": "House of the Wannsee Conference",
@@ -632,7 +644,7 @@
     "neighborhood": "Oberschöneweide",
     "borough": "Treptow-Köpenick",
     "type": "Technology",
-    "summary": "Website"
+    "summary": "No info available"
 },
 {
     "name": "Jewish Museum Berlin",
@@ -652,10 +664,11 @@
 },
 {
     "name": "Jugend Museum",
+    "image": "https://www.berlin.de/binaries/asset/image_assets/3133328/ratio_4_3/1486734122/800x600/",
     "neighborhood": "Schöneberg",
     "borough": "Tempelhof-Schöneberg",
     "type": "Children's",
-    "summary": "Website, housed at Schöneberg Museum"
+    "summary": "About jouth. Housed at Schöneberg Museum"
 },
 {
     "name": "Käthe Kollwitz Museum",
@@ -687,7 +700,7 @@
     "neighborhood": "Nikolaiviertel",
     "borough": "Mitte",
     "type": "Historic house",
-    "summary": "Website, 18th-century town house"
+    "summary": "18th-century town house"
 },
 {
     "name": "Köpenick City Hall ",
@@ -695,14 +708,15 @@
     "neighborhood": "Köpenick",
     "borough": "Treptow-Köpenick",
     "type": "History",
-    "summary": "Website, permanent exhibition \"The Captain of Köpenick\""
+    "summary": "Permanent exhibition \"The Captain of Köpenick\""
 },
 {
     "name": "Köpenick Museum",
+    "image": "https://www.berlin.de/binaries/asset/image_assets/3224330/source/1492074161/624x468/",
     "neighborhood": "Köpenick",
     "borough": "Treptow-Köpenick",
     "type": "History",
-    "summary": "Website"
+    "summary": "Local culture and history"
 },
 {
     "name": "Köpenick Palace",
@@ -718,7 +732,7 @@
     "neighborhood": "Tiergarten",
     "borough": "Mitte",
     "type": "Ceramics",
-    "summary": "Website, KPM Royal Porcelain Factory tours, history and production of their porcelain"
+    "summary": "KPM Royal Porcelain Factory tours, history and production of their porcelain"
 },
 {
     "name": "Kulturforum",
@@ -750,14 +764,14 @@
     "neighborhood": "Dahlem",
     "borough": "Steglitz-Zehlendorf",
     "type": "Art",
-    "summary": "Website, German post-war modernist art in East and West"
+    "summary": "German post-war modernist art in East and West"
 },
 {
     "name": "Kunstraum Kreuzberg/Bethanien ",
     "neighborhood": "Kreuzberg",
     "borough": "Friedrichshain-Kreuzberg",
     "type": "Art",
-    "summary": "Website, contemporary art, group exhibitions of themed exhibits relating to current social and cultural activity"
+    "summary": "Contemporary art, group exhibitions of themed exhibits relating to current social and cultural activity"
 },
 {
     "name": "Kupferstichkabinett Berlin",
@@ -781,7 +795,7 @@
     "neighborhood": "Wedding",
     "borough": "Mitte",
     "type": "Children's",
-    "summary": "Website"
+    "summary": "Playful experience for children"
 },
 {
     "name": "Liebermann Villa",
@@ -796,28 +810,30 @@
     "neighborhood": "Wilmersdorf",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Fashion",
-    "summary": "Website, open by appointment, historic lipstick and makeup cases, celebrity photographs with kiss marks, advertising, costumes"
+    "summary": "Open by appointment, historic lipstick and makeup cases, celebrity photographs with kiss marks, advertising, costumes"
 },
 {
     "name": "Luisa Catucci Gallery",
     "neighborhood": "Neukölln",
     "borough": "Neukölln",
     "type": "Art",
-    "summary": "Website"
+    "summary": "Art gallery"
 },
 {
     "name": "MACHmit! Museum for kids",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Eliaskirche_%28Berlin%29.jpg/1200px-Eliaskirche_%28Berlin%29.jpg",
     "neighborhood": "Prenzlauer Berg",
     "borough": "Pankow",
     "type": "Children's",
-    "summary": "Website"
+    "summary": "Interactive museum for kids"
 },
 {
     "name": "Marienfelde Refugee Center Museum",
+    "image": "https://www.visitberlin.de/system/files/styles/visitberlin_hero_visitberlin_desktop_2x/private/image/Notaufnahmelager_Marienfelde_c_ENM_Foto_Andreas%20Tauber_DL_PPT_0.jpg?h=e5aec6c8&itok=rhb9h-Wl",
     "neighborhood": "Marienfelde",
     "borough": "Tempelhof-Schöneberg",
     "type": "History",
-    "summary": "Website, history of the Marienfelde refugee transit camp and the history of flight and emigration in divided Germany"
+    "summary": "History of the Marienfelde refugee transit camp and the history of flight and emigration in divided Germany"
 },
 {
     "name": "Märkisches Museum",
@@ -829,6 +845,7 @@
 },
 {
     "name": "Madame Tussauds Berlin",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Madame_Tussauds_in_Berlin.JPG",
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Wax",
@@ -839,7 +856,7 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Magic",
-    "summary": "Website, magical practices and artifacts from all over the world"
+    "summary": "Magical practices and artifacts from all over the world"
 },
 {
     "name": "Martin-Gropius-Bau",
@@ -850,7 +867,7 @@
     "summary": "Modern and contemporary art and photography"
 },
 {
-    "name": "me Collectors Room Berlin",
+    "name": "Me Collectors Room Berlin",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Mitte_Auguststra%C3%9Fe_am_Gallery_Weekend-001.JPG/450px-Mitte_Auguststra%C3%9Fe_am_Gallery_Weekend-001.JPG",
     "neighborhood": "Tiergarten",
     "borough": "Mitte",
@@ -879,14 +896,15 @@
     "neighborhood": "Friedrichstadt",
     "borough": "Mitte",
     "type": "Biographical",
-    "summary": "Website, history of the Mendelssohn family and the Fascists' forced liquidation of the former Mendelssohn & Co. bank"
+    "summary": "History of the Mendelssohn family and the Fascists' forced liquidation of the former Mendelssohn & Co. bank"
 },
 {
     "name": "Body Worlds",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Berlin_-_Berliner_Fernsehturm5.jpg/220px-Berlin_-_Berliner_Fernsehturm5.jpg",
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Natural history",
-    "summary": "Website, museum by Body Worlds about the human body, features preserved human bodies"
+    "summary": "Museum by Body Worlds about the human body, features preserved human bodies"
 },
 {
     "name": "Military History Museum at Belin-Gatow",
@@ -902,7 +920,7 @@
     "neighborhood": "Wedding",
     "borough": "Mitte",
     "type": "Local",
-    "summary": "Website, local history and culture, features themed rooms about everyday life in around 1900"
+    "summary": "Local history and culture, features themed rooms about everyday life in around 1900"
 },
 {
     "name": "Mori Ôgai Memorial Site ",
@@ -910,21 +928,23 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Biographical",
-    "summary": "Website, life and work of author Mori Ōgai, part of the Japan Centre at the Humboldt University of Berlin"
+    "summary": "Life and work of author Mori Ōgai, part of the Japan Centre at the Humboldt University of Berlin"
 },
 {
     "name": "Museum Blindenwerkstatt Otto Weidt",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Berlin%2C_Mitte%2C_Rosenthaler_Strasse_39%2C_Haus_Schwarzenberg.jpg/800px-Berlin%2C_Mitte%2C_Rosenthaler_Strasse_39%2C_Haus_Schwarzenberg.jpg",
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "History",
-    "summary": "Website, history of Otto Weidt's workshop for the blind and efforts to protect his Jewish workers in World War II"
+    "summary": "History of Otto Weidt's workshop for the blind and efforts to protect his Jewish workers in World War II"
 },
 {
     "name": "Museum Flat WBS 70",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Wps70winter.jpg/800px-Wps70winter.jpg",
     "neighborhood": "Hellersdorf",
     "borough": "Marzahn-Hellersdorf",
     "type": "Historic house",
-    "summary": "Website, typical East German apartment with all furnishings made in East Germany"
+    "summary": "Typical East German apartment with all furnishings made in East Germany"
 },
 {
     "name": "Museum in the Kulturbrauerei",
@@ -932,7 +952,7 @@
     "neighborhood": "Prenzlauer Berg",
     "borough": "Pankow",
     "type": "History",
-    "summary": "Website, everyday life in East Germany"
+    "summary": "Everyday life in East Germany"
 },
 {
     "name": "Museum in the Old Waterworks ",
@@ -940,7 +960,7 @@
     "neighborhood": "Friedrichshagen",
     "borough": "Treptow-Köpenick",
     "type": "Technology",
-    "summary": "Website, located in a former waterworks facility, history of the city's water supply, sewage disposal and waste treatment facilities"
+    "summary": "Located in a former waterworks facility, history of the city's water supply, sewage disposal and waste treatment facilities"
 },
 {
     "name": "Museum for Architectural Drawing",
@@ -956,7 +976,7 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Media",
-    "summary": "Website, origins, development and future of the information society including postal systems and telecommunications"
+    "summary": "Origins, development and future of the information society including postal systems and telecommunications"
 },
 {
     "name": "Museum Lichtenberg ",
@@ -964,7 +984,7 @@
     "neighborhood": "Rummelsburg",
     "borough": "Lichtenberg",
     "type": "Local",
-    "summary": "Website, local history, located in the former town hall"
+    "summary": "Local history, located in the former town hall"
 },
 {
     "name": "Museum Neukölln ",
@@ -972,7 +992,7 @@
     "neighborhood": "Britz",
     "borough": "Neukölln",
     "type": "Local",
-    "summary": "Website, local history and culture"
+    "summary": "Local history and culture"
 },
 {
     "name": "Museum of Architecture of the Technical University of Berlin ",
@@ -980,7 +1000,7 @@
     "neighborhood": "Charlottenburg",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Architecture",
-    "summary": "Website, drawings, prints and photographs related to architecture, mostly by 19th and 20th century Prussian architects"
+    "summary": "Drawings, prints and photographs related to architecture, mostly by 19th and 20th century Prussian architects"
 },
 {
     "name": "Museum of Asian Art",
@@ -1000,6 +1020,7 @@
 },
 {
     "name": "Museum of Film and Television Berlin",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Berlin_Museum_of_Film_and_Television.JPG/800px-Berlin_Museum_of_Film_and_Television.JPG",
     "neighborhood": "Tiergarten",
     "borough": "Mitte",
     "type": "Media",
@@ -1007,17 +1028,19 @@
 },
 {
     "name": "Museum of Letters ",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Buchstabenmuseum_1.jpg/1200px-Buchstabenmuseum_1.jpg",
     "neighborhood": "Hansaviertel",
     "borough": "Mitte",
     "type": "Printing",
-    "summary": "Website, emergence, production and history of typography, scripts and sign systems"
+    "summary": "Emergence, production and history of typography, scripts and sign systems"
 },
 {
     "name": "Museum of Illusions",
+    "image": "https://simplyjaimee.de/wp-content/uploads/2019/02/1-Museum-der-Illusionen-1024x637.jpg",
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "Multiple",
-    "summary": "Website"
+    "summary": "Exhibition about different sense-bending illusions"
 },
 {
     "name": "Museum of Islamic Art",
@@ -1055,7 +1078,7 @@
     "neighborhood": "Schöneberg",
     "borough": "Tempelhof-Schöneberg",
     "type": "Curiosities",
-    "summary": "Website, collection of artistic, scientific and technical objects from the past and present linked by stories"
+    "summary": "Collection of artistic, scientific and technical objects from the past and present linked by stories"
 },
 {
     "name": "Museum Pankow ",
@@ -1063,14 +1086,14 @@
     "neighborhood": "Prenzlauer Berg",
     "borough": "Pankow",
     "type": "Multiple",
-    "summary": "Website, three sites: main museum of local history at Prenzlauer Allee 227; home on Heynstraße 8 depicts upper class life in 1900; house at Dunckerstraße 77"
+    "summary": "Three sites: main museum of local history at Prenzlauer Allee 227; home on Heynstraße 8 depicts upper class life in 1900; house at Dunckerstraße 77"
 },
 {
     "name": "Museum Reinickendorf",
     "neighborhood": "Hermsdorf",
     "borough": "Reinickendorf",
     "type": "Local",
-    "summary": "Website, borough history and culture"
+    "summary": "Borough history and culture"
 },
 {
     "name": "Museumsdorf Düppel ",
@@ -1078,7 +1101,7 @@
     "neighborhood": "Zehlendorf",
     "borough": "Steglitz-Zehlendor",
     "type": "Open-air",
-    "summary": "Website, recreated medieval village"
+    "summary": "Recreated medieval village"
 },
 {
     "name": "Nazi Forced Labour Documentation Centre",
@@ -1121,12 +1144,12 @@
     "summary": "Permanent exhibition documenting the history of the building and of Berlin's Jewish community"
 },
 {
-    "name": "nGbK (New Society for Fine Arts)",
+    "name": "NGbK (New Society for Fine Arts)",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Neue_Gesellschaft_f%C3%BCr_bildende_Kunst_nGbK.jpg/581px-Neue_Gesellschaft_f%C3%BCr_bildende_Kunst_nGbK.jpg",
     "neighborhood": "Kreuzberg",
     "borough": "Friedrichshain-Kreuzberg",
     "type": "Art",
-    "summary": "Website, contemporary art exhibitions"
+    "summary": "Contemporary art exhibitions"
 },
 {
     "name": "Nikolaikirche",
@@ -1142,7 +1165,7 @@
     "neighborhood": "Tempelhof",
     "borough": "Tempelhof-Schöneberg",
     "type": "History",
-    "summary": "Website, exhibition on location that documents the history of the prison"
+    "summary": "Exhibition on location that documents the history of the prison"
 },
 {
     "name": "Pergamon Museum",
@@ -1154,10 +1177,11 @@
 },
 {
     "name": "Pergamon Museum-Das Panorama ",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pergamonmuseum_-_panoramio_%281%29.jpg/220px-Pergamonmuseum_-_panoramio_%281%29.jpg",
     "neighborhood": "Museum Island",
     "borough": "Mitte",
     "type": "Archaeology",
-    "summary": "Part of the Berlin State Museums, new exhibition house that complements the Pergamon Museum"
+    "summary": "Part of the Berlin State Museums, new exhibition house that complements the Pergamon Museum with a 360 degrees Panorama"
 },
 {
     "name": "Pfaueninsel Palace",
@@ -1172,14 +1196,14 @@
     "neighborhood": "Mariendorf",
     "borough": "Tempelhof-Schöneberg",
     "type": "Law enforcement",
-    "summary": "Website, located in Berlin Police headquarters at Platz der Luftbrücke, includes uniforms, weapons, tools[3]"
+    "summary": "Located in Berlin Police headquarters at Platz der Luftbrücke, includes uniforms, weapons, tools[3]"
 },
 {
     "name": "Puppet Theatre Museum",
     "neighborhood": "Neukölln",
     "borough": "Neukölln",
     "type": "Puppetry",
-    "summary": "Website, marionettes and theatrical puppets[4]"
+    "summary": "Marionettes and theatrical puppets"
 },
 {
     "name": "Ramones Museum",
@@ -1194,7 +1218,7 @@
     "neighborhood": "Friedenau",
     "borough": "Tempelhof-Schöneberg",
     "type": "Medical",
-    "summary": "Website, history of the German Red Cross, includes uniforms, insignia, medical kits, equipment"
+    "summary": "History of the German Red Cross, includes uniforms, insignia, medical kits, equipment"
 },
 {
     "name": "Sammlung Scharf-Gerstenberg",
@@ -1206,10 +1230,11 @@
 },
 {
     "name": "Samurai Art Museum",
+    "image": "https://www.visitberlin.de/system/files/styles/visitberlin_hero_visitberlin_desktop_2x/private/event_images/vb-50-d866d7d4-3af2-4579-8732-d0e1a6b97768.jpg?h=f8fc7e9d&itok=QDV_rKPB",
     "neighborhood": "Zehlendorf",
     "borough": "Steglitz-Zehlendorf",
     "type": "Art",
-    "summary": "Website, art of the Samurai from the Janssen Collection Berlin"
+    "summary": "Art of the Samurai from the Janssen Collection Berlin"
 },
 {
     "name": "Schloss Britz",
@@ -1221,10 +1246,11 @@
 },
 {
     "name": "Schöneberg Museum",
+    "image": "https://www.berlin.de/binaries/asset/image_assets/3133328/source/1486734122/624x468/",
     "neighborhood": "Schöneberg",
     "borough": "Tempelhof-Schöneberg",
     "type": "Local",
-    "summary": "Website, local history and culture"
+    "summary": "Local history and culture"
 },
 {
     "name": "Schönhausen Palace",
@@ -1248,7 +1274,7 @@
     "neighborhood": "Mitte",
     "borough": "Mitte",
     "type": "History",
-    "summary": "Website, history of spying, secret agents and secret services"
+    "summary": "History of spying, secret agents and secret services"
 },
 {
     "name": "Spandau Citadel",
@@ -1260,10 +1286,11 @@
 },
 {
     "name": "Sportmuseum Berlin",
+    "image": "https://www.berlin.de/binaries/asset/image_assets/3231948/source/1470995170/624x468/",
     "neighborhood": "Westend",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "Sports",
-    "summary": "Website, located in Olympiapark, German sports history"
+    "summary": "Located in Olympiapark, German sports history"
 },
 {
     "name": "Stasi Museum",
@@ -1279,14 +1306,15 @@
     "neighborhood": "Steglitz",
     "borough": "Steglitz-Zehlendorf",
     "type": "Local",
-    "summary": "Website, local history and culture"
+    "summary": "Local history and culture"
 },
 {
     "name": "Tempelhof Museum",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Tempelhof_heimatmuseum_mariendorf.JPG/1200px-Tempelhof_heimatmuseum_mariendorf.JPG",
     "neighborhood": "Mariendorf",
     "borough": "Tempelhof-Schöneberg",
     "type": "Local",
-    "summary": "Website, local history and culture"
+    "summary": "Local history and culture"
 },
 {
     "name": "Topography of Terror",
@@ -1298,13 +1326,15 @@
 },
 {
     "name": "Trabi Museum",
+    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/AWZ_Trabant_601S%2C_Verkehrszentrum_des_Deutschen_Museums.JPG/1200px-AWZ_Trabant_601S%2C_Verkehrszentrum_des_Deutschen_Museums.JPG",
     "neighborhood": "Kreuzberg",
     "borough": "Friedrichshain-Kreuzberg",
     "type": "Automobile",
-    "summary": "Website, history of the Trabant"
+    "summary": "History of the Trabant, the car of the GDR"
 },
 {
     "name": "Tränenpalast: Palace of Tears",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Berlin%2C_Mitte%2C_Friedrichstrasse%2C_Traenenpalast.jpg/1200px-Berlin%2C_Mitte%2C_Friedrichstrasse%2C_Traenenpalast.jpg",
     "neighborhood": "Friedrichstadt",
     "borough": "Mitte",
     "type": "History",
@@ -1312,17 +1342,19 @@
 },
 {
     "name": "Treptow Museum",
+    "image": "https://www.berlin.de/binaries/asset/image_assets/3224336/source/1507807741/624x468/",
     "neighborhood": "Johannisthal",
     "borough": "Treptow-Köpenick",
     "type": "History",
-    "summary": "Website"
+    "summary": "History of the neighborhood"
 },
 {
     "name": "Urban Nation-Museum for Contemporary Art",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sch%C3%B6neberg_B%C3%BClowstra%C3%9Fe_7_Urban_Nation_Museum-001.jpg",
     "neighborhood": "Schöneberg",
     "borough": "Tempelhof-Schöneberg",
     "type": "Art",
-    "summary": "Website"
+    "summary": "Exhibitions of urban contemporary art."
 },
 {
     "name": "Villa Oppenheim (Charlottenurg-Wilmersdorf Museum) ",
@@ -1330,14 +1362,14 @@
     "neighborhood": "Charlotteburg",
     "borough": "Charlottenburg-Wilmersdorf",
     "type": "History",
-    "summary": "Website, late 19th-century villa with museum about the regional and urban history of the district and Berlin's cultural history, 1908 art collection of the then independent city of Charlottenburg"
+    "summary": "Late 19th-century villa with museum about the regional and urban history of the district and Berlin's cultural history, 1908 art collection of the then independent city of Charlottenburg"
 },
 {
     "name": "Zehlendorf Museum",
     "neighborhood": "Steglitz",
     "borough": "Steglitz-Zehlendorf",
     "type": "Local",
-    "summary": "Website, local history and culture"
+    "summary": "Local history and culture"
 },
 {
     "name": "Zille Museum",
@@ -1345,13 +1377,14 @@
     "neighborhood": "Nikolaiviertel",
     "borough": "Mitte",
     "type": "Art",
-    "summary": "Website, life and work of Heinrich Zille, including drawings, lithographs and photographs"
+    "summary": "Life and work of Heinrich Zille, including drawings, lithographs and photographs"
 },
 {
     "name": "Zweiradmuseum",
+    "image": "https://www.ideal-seitenwagen.eu/wp-content/uploads/2018/12/Museum-neu-130702-2_Seite_03.jpg",
     "neighborhood": "Kreuzberg",
     "borough": "Friedrichshain-Kreuzberg",
     "type": "Transportation",
-    "summary": "Website, historic motorcycles, sidecars, engines and bicycles"
+    "summary": "Historic motorcycles, sidecars, engines and bicycles"
 }
 ]
