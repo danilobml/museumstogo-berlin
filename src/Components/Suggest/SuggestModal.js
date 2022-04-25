@@ -1,3 +1,5 @@
+import "./SuggestModal.css";
+
 const SuggestModal = ({ berlinList, closeSuggest, handleGetSuggestion, setSuggestType, setSuggestLocation }) => {
   const types = berlinList.map((museum) => {
     return museum.type;
@@ -17,9 +19,9 @@ const SuggestModal = ({ berlinList, closeSuggest, handleGetSuggestion, setSugges
         </button>
         <br />
         <form onSubmit={handleGetSuggestion}>
-          <label htmlFor="museums-type">What kind of museum are you looking for?</label>
+          <label htmlFor="museums-suggest-type">What kind of museum are you looking for?</label>
           <br />
-          <select id="museums-type" name="museumType" onInput={(event) => setSuggestType(event.target.value)}>
+          <select id="museums-suggest-type" name="museumType" onInput={(event) => setSuggestType(event.target.value)}>
             <option defaultValue="disabled" vaue="">
               All
             </option>
@@ -32,9 +34,9 @@ const SuggestModal = ({ berlinList, closeSuggest, handleGetSuggestion, setSugges
             })}
           </select>
           <br />
-          <label htmlFor="museums-loc">Are you looking for a particular location?</label>
+          <label htmlFor="museums-suggest-loc">Are you looking for a particular location?</label>
           <br />
-          <select id="museums-loc" name="museumLocation" onInput={(event) => setSuggestLocation(event.target.value)}>
+          <select id="museums-suggest-loc" name="museumLocation" onInput={(event) => setSuggestLocation(event.target.value)}>
             <option defaultValue="disabled" value="">
               All
             </option>

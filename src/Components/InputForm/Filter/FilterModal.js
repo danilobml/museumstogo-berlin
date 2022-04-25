@@ -1,3 +1,5 @@
+import "./FilterModal.css";
+
 const FilterModal = ({ berlinList, newArray, closeFilter, handleGetFilter, setFilterType, setFilterLocation, showFilterList, setFilteredMuseum, filter }) => {
   const types = berlinList.map((museum) => {
     return museum.type;
@@ -18,9 +20,9 @@ const FilterModal = ({ berlinList, newArray, closeFilter, handleGetFilter, setFi
         <br />
         <p>Filter by:</p>
         <form onSubmit={handleGetFilter}>
-          <label htmlFor="museums-type">Type:</label>
+          <label htmlFor="museums-filter-type">Type:</label>
           <br />
-          <select id="museums-type" name="museumType" onInput={(event) => setFilterType(event.target.value)}>
+          <select id="museums-filter-type" name="museumType" onInput={(event) => setFilterType(event.target.value)}>
             <option defaultValue="disabled" vaue="">
               All
             </option>
@@ -33,9 +35,9 @@ const FilterModal = ({ berlinList, newArray, closeFilter, handleGetFilter, setFi
             })}
           </select>
           <br />
-          <label htmlFor="museums-loc">Location:</label>
+          <label htmlFor="museums-filter-loc">Location:</label>
           <br />
-          <select id="museums-loc" name="museumLocation" onInput={(event) => setFilterLocation(event.target.value)}>
+          <select id="museums-filter-loc" name="museumLocation" onInput={(event) => setFilterLocation(event.target.value)}>
             <option defaultValue="disabled" value="">
               All
             </option>
@@ -55,7 +57,7 @@ const FilterModal = ({ berlinList, newArray, closeFilter, handleGetFilter, setFi
             <form className="filter-form" onSubmit={(event) => filter(event)}>
               <label>Select a museum:</label>
               <br />
-              <select id="berlin-museums" name="berlin" onInput={(event) => setFilteredMuseum(event.target.value)}>
+              <select id="filtered-museums" name="berlin" onInput={(event) => setFilteredMuseum(event.target.value)}>
                 <option defaultValue="disabled" value="">
                   Filtered results:
                 </option>
@@ -67,7 +69,7 @@ const FilterModal = ({ berlinList, newArray, closeFilter, handleGetFilter, setFi
                   );
                 })}
               </select>
-              <input type="submit" className="addbutton" value="Add" />
+              <input type="submit" id="add-filter" value="Add" />
             </form>
           </div>
         ) : (
