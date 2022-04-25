@@ -9,6 +9,7 @@ import ClearTogo from "./Components/ClearTogo";
 import berlinList from "./data/berlinMuseums.json";
 import InfoModal from "./Components/InfoModal";
 import SuggestModal from "./Components/SuggestModal";
+import FilterModal from "./Components/InputForm/Filter/FilterModal";
 
 function App() {
   const [museums, setMuseums] = useState(() => {
@@ -21,8 +22,14 @@ function App() {
   const [showInfo, setShowInfo] = useState(false);
   const [info, setInfo] = useState({});
   const [showSuggest, setShowSuggest] = useState(false);
+  const [showFilter, setShowFilter] = useState(false);
   const [suggestType, setSuggestType] = useState("");
   const [suggestLocation, setSuggestLocation] = useState("");
+  const [filterType, setFilterType] = useState("");
+  const [filterLocation, setFilterLocation] = useState("");
+  const [showFilterList, setShowFilterList] = useState(false);
+  const [filteredMuseum, setFilteredMuseum] = useState({});
+  const [newArray, setNewArray] = useState([]);
 
   useEffect(() => {
     const toStorage = JSON.stringify(museums);
@@ -136,11 +143,11 @@ function App() {
     setShowSuggest(false);
   };
 
-  const suggest = (newArray) => {
+  const suggest = (arrSuggest) => {
     const museumRegister = museums.map((museum) => museum.name);
     let newMuseum = {};
-    if (newArray.length > 0) {
-      const random = newArray[Math.floor(Math.random() * newArray.length)];
+    if (arrSuggest.length > 0) {
+      const random = arrSuggest[Math.floor(Math.random() * arrSuggest.length)];
       const currentMuseum = museums.find((m) => m.name === random.name);
       if (!currentMuseum) {
         newMuseum = {
@@ -155,8 +162,8 @@ function App() {
       }
       if (newMuseum.name) {
         setMuseums([...museums, newMuseum]);
-      } else if (!newArray.every((museum) => museumRegister.includes(museum.name))) {
-        suggest(newArray);
+      } else if (!arrSuggest.every((museum) => museumRegister.includes(museum.name))) {
+        suggest(arrSuggest);
       } else {
         alert("You've already got all museums that fit your preferences on your list!");
         return;
@@ -168,22 +175,81 @@ function App() {
 
   const handleGetSuggestion = (event) => {
     event.preventDefault();
-    let newArray = [];
+    let arrSuggest = [];
     if (suggestType && suggestLocation) {
-      newArray = berlinList.filter((museum) => {
+      arrSuggest = berlinList.filter((museum) => {
         return museum.type === suggestType && museum.borough === suggestLocation;
       });
     } else if (suggestType) {
-      newArray = berlinList.filter((museum) => museum.type === suggestType);
+      arrSuggest = berlinList.filter((museum) => museum.type === suggestType);
     } else if (suggestLocation) {
-      newArray = berlinList.filter((museum) => museum.borough === suggestLocation);
+      arrSuggest = berlinList.filter((museum) => museum.borough === suggestLocation);
     } else {
-      newArray = berlinList;
+      arrSuggest = berlinList;
     }
-    const newMuseum = suggest(newArray);
+    suggest(arrSuggest);
     setShowSuggest(false);
     setSuggestType("");
     setSuggestLocation("");
+    event.target.reset();
+  };
+
+  const handleFilterOpen = () => {
+    setShowFilter(true);
+  };
+
+  const handleFilterClose = () => {
+    setShowFilter(false);
+    setInfo({});
+  };
+
+  const filter = (event) => {
+    event.preventDefault();
+
+    let newMuseum = {};
+    const currentMuseum = museums.find((m) => m.name === filteredMuseum);
+    if (!currentMuseum) {
+      newMuseum = {
+        name: filteredMuseum,
+        completed: false,
+      };
+    } else {
+      newMuseum = {
+        name: "",
+        completed: "",
+      };
+    }
+    if (newMuseum.name) {
+      setMuseums([...museums, newMuseum]);
+    }
+    setShowFilter(false);
+    setShowFilterList(false);
+    setFilterType("");
+    setFilterLocation("");
+    setNewArray([]);
+  };
+
+  const handleGetFilter = (event) => {
+    event.preventDefault();
+    if (filterType && filterLocation) {
+      setNewArray(
+        berlinList.filter((museum) => {
+          return museum.type === filterType && museum.borough === filterLocation;
+        })
+      );
+    } else if (filterType) {
+      setNewArray(berlinList.filter((museum) => museum.type === filterType));
+    } else if (filterLocation) {
+      setNewArray(berlinList.filter((museum) => museum.borough === filterLocation));
+    } else {
+      setNewArray(berlinList);
+    }
+    if (newArray === []) {
+      alert("There's no museum of that type at that location.");
+      return;
+    }
+
+    setShowFilterList(true);
     event.target.reset();
   };
 
@@ -192,11 +258,11 @@ function App() {
       <div className="container">
         <h1>Museums to Go</h1>
         <h3>Berlin</h3>
-        {/* props */}
-        <InputForm onInput={handleUserInput} onAddNew={handleAddNewMuseum} berlinList={berlinList} handleSuggest={handleSuggest} />
+        <InputForm onInput={handleUserInput} onAddNew={handleAddNewMuseum} berlinList={berlinList} handleSuggest={handleSuggest} handleFilter={handleFilterOpen} showFilter={showFilter} />
         <List museums={museums} editing={editing} editMuseum={handleEdit} submitEdit={handleSubmitEdit} deleteMuseum={handleDeleteMuseum} handleComplete={handleComplete} onEditText={handleEditText} editText={editText} clickInfo={handleClickInfo} setShowInfo={setShowInfo} />
         {showInfo ? <InfoModal closeInfo={handleInfoClose} info={info} /> : ""}
-        {showSuggest ? <SuggestModal closeSuggest={handleSuggestClose} berlinList={berlinList} handleGetSuggestion={handleGetSuggestion} setSuggestType={setSuggestType} setSuggestLocation={setSuggestLocation} /> : ""}
+        {showSuggest ? <SuggestModal berlinList={berlinList} closeSuggest={handleSuggestClose} handleGetSuggestion={handleGetSuggestion} setSuggestType={setSuggestType} setSuggestLocation={setSuggestLocation} /> : ""}
+        {showFilter ? <FilterModal berlinList={berlinList} newArray={newArray} closeFilter={handleFilterClose} handleGetFilter={handleGetFilter} setFilterType={setFilterType} setFilterLocation={setFilterLocation} showFilterList={showFilterList} filter={filter} setFilteredMuseum={setFilteredMuseum} /> : ""}
         <div className="clear-div">
           {museums.find((m) => m.completed === false) ? <ClearTogo handleClearTogo={handleClearTogo} /> : ""}
           {museums.find((m) => m.completed === false) && museums.find((m) => m.completed === true) ? <ClearAll handleClearAll={handleClearAll} /> : ""}

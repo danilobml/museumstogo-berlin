@@ -43,7 +43,7 @@ h1 {
   justify-content: center;
 }
 
-.info-container, .reco-container {
+.info-container, .reco-container, .filter-container {
   background-color: aliceblue;
   padding: 1rem;
   border-radius: 1rem;
@@ -70,7 +70,7 @@ h1 {
   margin: 0 auto;
 }
 
-.info-close, .reco-close {
+.info-close, .reco-close, .filter-close {
   background-color: rgb(227, 95, 78);
   font-size: 0.9rem;
   border:1px solid  rgb(175, 70, 57);
@@ -81,7 +81,7 @@ h1 {
   float: right;
 }
 
-.get-suggestion{
+.get-suggestion, .get-filter{
     margin-top: 0.5rem;
     background-color: rgb(51, 65, 190);
     border-radius: 0.3rem;

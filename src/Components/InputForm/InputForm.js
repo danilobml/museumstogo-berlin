@@ -1,7 +1,8 @@
 import "./InputForm.css";
 import Suggest from "./Suggest";
+import Filter from "./Filter/Filter";
 
-const InputForm = ({ onInput, onAddNew, berlinList, handleSuggest }) => {
+const InputForm = ({ onInput, onAddNew, berlinList, handleSuggest, handleFilter }) => {
   return (
     <>
       <form className="input-form" onSubmit={onAddNew}>
@@ -18,6 +19,7 @@ const InputForm = ({ onInput, onAddNew, berlinList, handleSuggest }) => {
           })}
         </datalist>
         <input type="submit" className="addbutton" value="Add"></input>
+        <Filter handleFilter={handleFilter} />
         <br />
         <label>Or let us suggest a museum for you:</label>
         <Suggest handleSuggest={handleSuggest} />
