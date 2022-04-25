@@ -62,7 +62,7 @@ h1 {
 }
 
 .info-pic {
-  width: 50%;
+  width: 80%;
   height: auto;
   max-height: 300px;
   margin-left: 2rem;
@@ -113,8 +113,8 @@ h1 {
 @media screen and (max-width: 750px) {
   
   .info-container, .suggest-container, .filter-container {
-    max-width: 280px;
-    max-height: 100%;
+    max-width: 90%;
+    max-height: 90%;
     }
   .get-suggestion {
     margin-left: 7px;
