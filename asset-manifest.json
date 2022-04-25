@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/museumstogo-berlin/static/css/main.a7bb2ea0.css",
+    "main.css": "/museumstogo-berlin/static/css/main.faf1aa58.css",
     "main.js": "/museumstogo-berlin/static/js/main.782173de.js",
     "static/js/787.5c6b5284.chunk.js": "/museumstogo-berlin/static/js/787.5c6b5284.chunk.js",
     "static/media/neuenationalgalerie.jpg": "/museumstogo-berlin/static/media/neuenationalgalerie.65417003931b9b628c43.jpg",
     "static/media/delete.svg": "/museumstogo-berlin/static/media/delete.48e0228eaa8d7bd1caaa08c3f94a356c.svg",
     "static/media/edit.svg": "/museumstogo-berlin/static/media/edit.01337accab4bb1da6dd483cb0114aaaa.svg",
     "index.html": "/museumstogo-berlin/index.html",
-    "main.a7bb2ea0.css.map": "/museumstogo-berlin/static/css/main.a7bb2ea0.css.map",
+    "main.faf1aa58.css.map": "/museumstogo-berlin/static/css/main.faf1aa58.css.map",
     "main.782173de.js.map": "/museumstogo-berlin/static/js/main.782173de.js.map",
     "787.5c6b5284.chunk.js.map": "/museumstogo-berlin/static/js/787.5c6b5284.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7bb2ea0.css",
+    "static/css/main.faf1aa58.css",
     "static/js/main.782173de.js"
   ]
 }
