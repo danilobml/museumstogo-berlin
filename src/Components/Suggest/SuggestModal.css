@@ -1,3 +1,7 @@
 #museums-suggest-loc, #museums-suggest-type {
     width: 90%;
 }
+
+.get-suggestion {
+    align-items: center;
+}
