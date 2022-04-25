@@ -54,6 +54,7 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1000;
+  max-width: 90%;
 }
 
 .info-container h1{
@@ -113,9 +114,4 @@ h1 {
   :root{ 
     font-size: 20px;
   }
-
-  .info-container, .filter-container, .suggest-container {
-    max-width:80%;
-  }
-
 }
