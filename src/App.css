@@ -116,14 +116,22 @@ h1 {
     max-width: 90%;
     max-height: 90%;
     }
-  .get-suggestion {
+  
+    .get-suggestion {
     margin-left: 7px;
     justify-self: center;
     position: relative;
-    left:15%;
+    left:23%;
+    }
+  
+    .get-filter {
+      margin-left: 7px;
+      justify-self: center;
+      position: relative;
+      left:32%;
+    }
 
-  }
-  }
+}
 
 @media screen and (min-width: 750px) {
   :root{ 
