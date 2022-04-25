@@ -43,7 +43,7 @@ h1 {
   justify-content: center;
 }
 
-.info-container, .reco-container, .filter-container {
+.info-container, .suggest-container, .filter-container {
   background-color: aliceblue;
   padding: 1rem;
   border-radius: 1rem;
@@ -70,7 +70,7 @@ h1 {
   margin: 0 auto;
 }
 
-.info-close, .reco-close, .filter-close {
+.info-close, .suggest-close, .filter-close {
   background-color: rgb(227, 95, 78);
   font-size: 0.9rem;
   border:1px solid  rgb(175, 70, 57);
@@ -112,5 +112,9 @@ h1 {
 @media screen and (min-width: 750px) {
   :root{ 
     font-size: 20px;
-  } 
+  }
+
+  .info-container, .filter-container, .suggest-container {
+    max-width:90%;
+  }
 }

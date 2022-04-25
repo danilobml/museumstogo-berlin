@@ -1,6 +1,6 @@
 //IMPORTED IN LIST.JS => App.js
 
-import editIcon from "./edit.svg";
+import editIcon from "./Icons/edit.svg";
 
 const Edit = ({ editMuseum, name }) => {
   return (

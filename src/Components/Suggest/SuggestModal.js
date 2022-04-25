@@ -11,8 +11,8 @@ const SuggestModal = ({ berlinList, closeSuggest, handleGetSuggestion, setSugges
   return (
     <>
       <div className="overlay"></div>
-      <div className="reco-container">
-        <button className="reco-close" onClick={closeSuggest}>
+      <div className="suggest-container">
+        <button className="suggest-close" onClick={closeSuggest}>
           Close
         </button>
         <br />

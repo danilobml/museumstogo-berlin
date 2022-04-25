@@ -3,12 +3,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useState, useEffect } from "react";
 import List from "./Components/List/List";
 import InputForm from "./Components/InputForm/InputForm";
-import ClearAll from "./Components/ClearAll";
-import ClearCompleted from "./Components/ClearCompleted";
-import ClearTogo from "./Components/ClearTogo";
+import ClearAll from "./Components/InputForm/ClearButtons/ClearAll";
+import ClearCompleted from "./Components/InputForm/ClearButtons/ClearCompleted";
+import ClearTogo from "./Components/InputForm/ClearButtons/ClearTogo";
 import berlinList from "./data/berlinMuseums.json";
-import InfoModal from "./Components/InfoModal";
-import SuggestModal from "./Components/SuggestModal";
+import InfoModal from "./Components/List/InfoModal";
+import SuggestModal from "./Components/Suggest/SuggestModal";
 import FilterModal from "./Components/InputForm/Filter/FilterModal";
 
 function App() {

@@ -1,5 +1,5 @@
 import "./InputForm.css";
-import Suggest from "./Suggest";
+import Suggest from "../Suggest/Suggest";
 import Filter from "./Filter/Filter";
 
 const InputForm = ({ onInput, onAddNew, berlinList, handleSuggest, handleFilter }) => {

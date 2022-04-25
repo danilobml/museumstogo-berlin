@@ -1,4 +1,4 @@
-import deleteIcon from "./delete.svg";
+import deleteIcon from "./Icons/delete.svg";
 
 const Delete = ({ deleteMuseum, name }) => {
   return (
