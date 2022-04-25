@@ -28,7 +28,7 @@ function App() {
   const [filterType, setFilterType] = useState("");
   const [filterLocation, setFilterLocation] = useState("");
   const [showFilterList, setShowFilterList] = useState(false);
-  const [filteredMuseum, setFilteredMuseum] = useState({});
+  const [filteredMuseum, setFilteredMuseum] = useState("");
   const [newArray, setNewArray] = useState([]);
 
   useEffect(() => {
@@ -199,13 +199,15 @@ function App() {
   };
 
   const handleFilterClose = () => {
+    setFilteredMuseum("");
     setShowFilter(false);
-    setInfo({});
+    setShowFilterList(false);
+    setFilterType("");
+    setFilterLocation("");
   };
 
   const filter = (event) => {
     event.preventDefault();
-
     let newMuseum = {};
     const currentMuseum = museums.find((m) => m.name === filteredMuseum);
     if (!currentMuseum) {
@@ -218,9 +220,15 @@ function App() {
         name: "",
         completed: "",
       };
+      if (currentMuseum.completed) {
+        alert("You've already visited this museum! If you'd like to revisit it, please uncheck the box next to it on the 'Museums already visited' section.");
+      } else {
+        alert("You've already chosen this museum in your to go list!");
+      }
     }
     if (newMuseum.name) {
       setMuseums([...museums, newMuseum]);
+      setFilteredMuseum("");
     }
     setShowFilter(false);
     setShowFilterList(false);
@@ -244,11 +252,6 @@ function App() {
     } else {
       setNewArray(berlinList);
     }
-    if (newArray === []) {
-      alert("There's no museum of that type at that location.");
-      return;
-    }
-
     setShowFilterList(true);
     event.target.reset();
   };
