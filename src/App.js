@@ -7,7 +7,7 @@ import ClearAll from "./Components/InputForm/ClearButtons/ClearAll";
 import ClearCompleted from "./Components/InputForm/ClearButtons/ClearCompleted";
 import ClearTogo from "./Components/InputForm/ClearButtons/ClearTogo";
 import berlinList from "./data/berlinMuseums.json";
-import InfoModal from "./Components/List/InfoModal";
+import InfoModal from "./Components/List/Info/InfoModal";
 import SuggestModal from "./Components/Suggest/SuggestModal";
 import FilterModal from "./Components/InputForm/Filter/FilterModal";
 
@@ -140,10 +140,6 @@ function App() {
     setInfo({});
   };
 
-  const handleSuggestClose = () => {
-    setShowSuggest(false);
-  };
-
   const suggest = (arrSuggest) => {
     const museumRegister = museums.map((museum) => museum.name);
     let newMuseum = {};
@@ -195,16 +191,31 @@ function App() {
     event.target.reset();
   };
 
+  const handleSuggestClose = () => {
+    setShowSuggest(false);
+  };
+
   const handleFilterOpen = () => {
     setShowFilter(true);
   };
 
-  const handleFilterClose = () => {
-    setFilteredMuseum("");
-    setShowFilter(false);
-    setShowFilterList(false);
-    setFilterType("");
-    setFilterLocation("");
+  const handleGetFilter = (event) => {
+    event.preventDefault();
+    if (filterType && filterLocation) {
+      setNewArray(
+        berlinList.filter((museum) => {
+          return museum.type === filterType && museum.borough === filterLocation;
+        })
+      );
+    } else if (filterType) {
+      setNewArray(berlinList.filter((museum) => museum.type === filterType));
+    } else if (filterLocation) {
+      setNewArray(berlinList.filter((museum) => museum.borough === filterLocation));
+    } else {
+      setNewArray(berlinList);
+    }
+    setShowFilterList(true);
+    event.target.reset();
   };
 
   const filter = (event) => {
@@ -238,23 +249,12 @@ function App() {
     setNewArray([]);
   };
 
-  const handleGetFilter = (event) => {
-    event.preventDefault();
-    if (filterType && filterLocation) {
-      setNewArray(
-        berlinList.filter((museum) => {
-          return museum.type === filterType && museum.borough === filterLocation;
-        })
-      );
-    } else if (filterType) {
-      setNewArray(berlinList.filter((museum) => museum.type === filterType));
-    } else if (filterLocation) {
-      setNewArray(berlinList.filter((museum) => museum.borough === filterLocation));
-    } else {
-      setNewArray(berlinList);
-    }
-    setShowFilterList(true);
-    event.target.reset();
+  const handleFilterClose = () => {
+    setFilteredMuseum("");
+    setShowFilter(false);
+    setShowFilterList(false);
+    setFilterType("");
+    setFilterLocation("");
   };
 
   return (

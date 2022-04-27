@@ -1,7 +1,7 @@
 import "./List.css";
 import Delete from "./Delete";
 import Edit from "./Edit";
-import Info from "./Info";
+import Info from "./Info/Info";
 
 const List = ({ handleComplete, museums, deleteMuseum, editMuseum, submitEdit, editing, onEditText, editText, clickInfo }) => {
   return (
